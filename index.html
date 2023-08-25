@@ -1,205 +1,290 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <!-- Font Awesome -->
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-      <!-- HTML5Shiv -->
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <![endif]-->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link rel="icon" type="text/css" href="imagens/favicon.png">
-      <title>Joselino Santos - Desenvolvedor Web</title>
-   </head>
-   <body class="hidescrool">
-      <header class="mb-5">
-         <nav class="navbar navbar-light navbar-expand-sm fixed-top nav-transparente">
-            <div class="container">
-               <a href="" class="navbar-brand text-white">
-                 <h4><img src="img/logo-js-white.png" width="30"> Joselino Santos</h4>
-               </a>
-               <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-main">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="nav-main">
-                  <ul class="navbar-nav ml-auto">
-                     <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
-                     <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
-                     <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                     <li class="nav-item"><a href="#contatos" class="nav-link">Contatos</a></li>
-                  </ul>
-               </div>
-            </div>
-         </nav>
-         <div class="espacador">
-         </div>
-      </header>
 
-      <section id="home" class="d-flex pt-5 text-white">
+<head>
+   <title>Joselino Santos - Desenvolvedor Web</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+   <link rel="icon" type="text/css" href="img/logo-purple.png">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+   <nav class="navbar navbar-dark navbar-expand-sm fixed-top bg-purple">
+      <div class="container">
+         <a href="" class="navbar-brand">
+            Joselino Santos
+         </a>
+         
+         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-main">
+            <i class="fa fa-bars text-white"></i>
+         </button>
+         <div class="collapse navbar-collapse" id="nav-main">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+               <li class="nav-item"><a href="#projects" class="nav-link">Projetos</a></li>
+               <!-- <li class="nav-item"><a href="#" class="nav-link">Blog</a></li> -->
+               <li class="nav-item"><a href="#contacts" class="nav-link">Contatos</a></li>
+               <li class="nav-item"><a href="#" class="nav-link dark-mode"><i class="fa fa-adjust fa-lg"></i></a></li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <main class="mt-5">
+      <section class="home d-flex pt-5 text-left">
          <div class="container">
             <div class="row">
                <div class="col-md-6 d-flex">
-                  <div class="align-self-center">
-                     <h2>Olá, bem vindo(a)</h2>
-                     <h3>Eu sou o Joselino Santos. </h3>
-                     <h3 class="mt-3">ANALISTA EM DESENVOLVIMENTO DE SISTEMAS</h3>
-                     <p class="lead">Sou graduado em Redes de computadores.</p>
-                     <p class="lead">Já prestei serviço para empresas, pessoas e órgãos públicos. Atualmente trabalho no SERPRO.
-                        Meu objetivo é compartilhar conhecimento e ajudar a comunidade.
-                     </p>
-                     <a href="" class="btn btn-outline-light btn-lg btn-custom mt-3">SAIBA MAIS</a>
+                  <div class="left">
+                     <header>
+                        <h3>Olá, bem vindo(a)</h3>
+                        <h2>Eu sou o <span>Joselino Santos</span></h2>
+                        <h3 class="mt-3">Desenvolvedor Web Pleno</h3>
+                     </header>
+
+                     <div>
+                        <p class="lead">Transformo layouts em páginas web responsivas.</p>
+                        <p class="lead">Trabalho com as tecnologias Web: HTML5, CSS3, Java Script, Angular</p>
+                        <p class="lead">Sou apaixonado por tecnologia e estou sempre me atualizando com as novidades
+                           para entregar resultados com maior qualidade e produtividade para gerar valor para os meus
+                           clientes.</p>
+                     </div>
+
+                     <div class="social-media">
+                        <a href="https://br.linkedin.com/in/joselino-santos" target="_blank"
+                           class="btn btn-outline-light rounded-circle"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="https://github.com/joselinosantos" target="_blank"
+                           class="btn btn-outline-light rounded-circle"><i class="fab fa-github"></i></a>
+                        <a href="https://codepen.io/joselino_santos" target="_blank"
+                           class="btn btn-outline-light rounded-circle"><i class="fab fa-codepen"></i></a>
+                     </div>
+                     <!-- <a href="" class="btn btn-saibamais btn-outline-light mt-3">Saiba mais</a> -->
                   </div>
                </div>
-               <div class="col-md-6 d-none d-md-block">
-                  <img class="mr-3" src="img/about-us.png">
-               </div>
+
+               <figure class="col-md-6 d-none d-md-block m-auto text-center">
+                  <img src="img/eu.jpg">
+               </figure>
             </div>
          </div>
       </section>
 
-      <section id="projetos" class="bg-light caixa">
+      <section class="solutions">
          <div class="container">
-            <div class="row">
-
-               <div class="col-md-6">
-               	<!--
-                  <div class="row itens">
-                     <div class="col-md-6 projeto">
-                        <img src="img/classi.png" class="img-fluid d-none d-md-block">
-                     </div>
-                     <div class="col-md-6 projeto">
-                        <img src="img/ecommerce1.png" class="img-fluid d-none d-md-block">
-                     </div>
-                  </div>
-                  <div class="row itens">
-                     <div class="col-md-6 projeto">
-                        <img src="img/vendas.png" class="img-fluid d-none d-md-block">
-                     </div>
-                     <div class="col-md-6 projeto">
-                        <img src="img/pizzaria.png" class="img-fluid d-none d-md-block">
-                     </div>
-                  </div>-->
-
-                  <div class="lightbox">
-					  <div class="row">
-					    <div class="col-lg-6">
-					      <a href=""><img
-					        src="img/classi.png"
-					        alt="Lightbox image 1"
-					        class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
-					      /></a>
-					        <a href=""><img
-					        src="img/ecommerce1.png"					        alt="Lightbox image 2"
-					        class="w-100 shadow-1-strong rounded"
-					      /></a>
-					    </div>
-					    <div class="col-lg-6">
-					        <a href="https://projetos.joselinosantos.com.br/pizzaria/" target="_blank"><img
-					        src="img/pizzaria.png"
-					        alt="Lightbox image 3"
-					        class="w-100 shadow-1-strong rounded mb-2"
-					      /></a>
-                       <a href="" target="_blank"><img
-                       src="img/financas.png"
-                       alt="Lightbox image 3"
-                       class="w-100 shadow-1-strong rounded"
-                     /></a>
-					    </div>
-
-					  </div>
-					</div>
-
+            <div class="card-deck">
+               <div class="card shadow">
+                  <i class="fa fa-desktop"></i>
+                  <h5>Sites</h5>
+                  <p>Um site elegante é o cartão de visitas ideal. Modelos prontos como Google sites pode causar perda
+                     da credibilidade.</p>
                </div>
-               <div class="col-md-6">
-                  <h2>Confira alguns dos Meus Projetos</h2>
-                  <p class="lead">Todos os projetos desenvolvidos com as seguintes tecnologias</p>
-                  <h3>JavaScript e Python</h3>
-                  <p class="lead">Duas das linguagens mais queridas e eficientes da atualidade. JS utilizamos no front e no backend e Python para analisar dados e automatizar processos.</p>
-                  <h3>MongoDB e MySQL</h3>
-                  <p class="lead">Dois bancos de dados excelentes que combinam muito bem com JS. </p>
-                  <h3>Bootstrap</h3>
-                  <p class="lead">Um dos melhores frameworks CSS garante agilidade no desenvolvimento.</p>
-                  <h3>Wordpress</h3>
-                  <p class="lead">Para quem prefere autonomia, o CMS mais amigável da Internet.</p>
+
+               <div class="card shadow">
+                  <i class="fa fa-globe"></i>
+                  <h5>Sistemas Web</h5>
+                  <p>Os sistemas Web possibilitam o cadastro e manutenção dos dados de qualquer natureza.</p>
+               </div>
+
+               <div class="card shadow">
+                  <i class="fa fa-desktop"></i>
+                  <h5>Landing Pages</h5>
+                  <p>No Marketing Digital uma Landing page é uma embalagem para tornar o seu produto mais atraente.</p>
+               </div>
+
+               <div class="card shadow">
+                  <i class="fa fa-globe"></i>
+                  <h5>Plataformas Digitais</h5>
+                  <p>Uma plataforma vai além de um sistema, com vários módulos e integrações mais complexas.</p>
                </div>
             </div>
          </div>
       </section>
 
-      <section id="posts" class="text-white caixa">
-         <div class="container text-center">
-            <div class="mb-5">
-               <h2>POSTS RECENTES</h2>
-               <h4>Confira os meus posts sobre Desenvolvimento Web e Anaytics</h4>
+      <section class="projects text-dark" id="projects">
+         <div class="container">
+            <header class="mb-5">
+               <h2>Projetos</h2>
+               <h4>Confira alguns dos meus projetos Web</h4>
+            </header>
+
+            <div class="card-deck">
+               <div class="card shadow">
+                  <a href="https://desenvolvedorjs.com/projetos/fashion-store/" target="_blank"><img
+                        src="img/projetos/fashion-store.png" alt="Imagem do projeto Fashion Store" /></a>
+               </div>
+
+               <div class="card shadow">
+                  <a href="https://desenvolvedorjs.com/projetos/pizzaria" target="_blank"><img
+                        src="img/projetos/food.png" alt="Imagem projeto Pizzaria" /></a>
+               </div>
+
+               <div class="card shadow">
+                  <a href="https://desenvolvedorjs.com/projetos/clinica" target="_blank">
+                     <img src="img/projetos/clinica.png" alt="Imagem projeto Clínica" /></a>
+               </div>
+
+               <div class="card shadow">
+                  <a href="https://desenvolvedorjs.com/projetos/financas/" target="_blank"><img
+                        src="img/projetos/financas.png" alt="Imagem do projeto Finanças" /></a>
+               </div>
+
+               <div class="card shadow">
+                  <a href="https://desenvolvedorjs.com/projetos/dashboard/" target="_blank"><img
+                        src="img/projetos/dashboard.png" alt="Imagem do projeto Dashboard" /></a>
+               </div>
+              
+               <div class="card shadow">
+                  <a href="https://desenvolvedorjs.com/projetos/plataforma-cursos/" target="_blank"><img
+                        src="img/projetos/cursos.png" alt="Imagem do projeto Plataforma de cursos" /></a>
+               </div>
             </div>
-            <div class="row">
-               <div class="col-md-4" onclick="artigo(1)">
-                  <div class="card p-2">
-                     <img src="img/analiseotif.png" class="img-fluid" style="height: 180px;">
-                     <h3>Análise de dados de entregas em Ecommerce</h3>
-                     <p>Veja o passo a passo para coletar, transformar e analisar os dados para melhorar o desempenho das entregas.</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="card p-2" onclick="artigo(2)">
-                     <img src="img/code python.jpeg" class="img-fluid" style="height: 180px;">
-                     <h3>Criando um virtualenv para projetos Python</h3>
-                     <p>Virtualenv é um ambiente que permite a instalação de pacotes sem interferir nas aplicações instaladas no sistema operacional. </p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="card p-2">
-                     <img src="img/node.png" class="img-fluid">
-                     <h3>Criando seu primeiro projeto em NodeJS</h3>
-                     <p>Node JS é o interpretador para Javascript que funciona fora do navegador. Baseado no motor V8 do Google Chrome revolucionou a linguagem que antes era apenas para front end. </p>
-                  </div>
-               </div>
-            </div>
-            <a href="" class="btn btn-outline-light btn-lg btn-custom mt-3">VER MAIS</a>
+
+            <a href="" class="btn btn-more mt-4">Mais projetos</a>
          </div>
       </section>
 
-      <footer>
-         <div class="container text-white">
-            <div class="row">
-               <div class="col-md-2">
-                  <h4>Joselino Santos</h4>
+      <section class="skills">
+         <div class="container">
+            <header class="mb-5">
+               <h2>Minhas Skills</h2>
+               <h4>Algumas das tecnologias que trabalho</h4>
+            </header>
+
+            <div class="card-deck">
+               <div class="card">
+                  <img src="img/icones/html5.png" alt="Logo HTML 5">
+                  <div class="card-body">
+                     <h5 class="card-title">HTML5</h5>
+                  </div>
                </div>
-               <div class="col-md-2">
-                  <h4>Links</h4>
-                  <ul class="navbar-nav">
-                     <li><a href="#sobre">Sobre</a></li>
-                     <li><a href="#projetos">Projetos</a></li>
-                     <li><a href="blog.html">Blog</a></li>
-                  </ul>
+
+               <div class="card">
+                  <img src="img/icones/javascript.png" alt="Logo Java Script">
+                  <div class="card-body">
+                     <h5 class="card-title">Java Script</h5>
+                  </div>
                </div>
-               <div class="col-md-4">
-                  <h4>Acompanhe-me</h4>
-                  <a href="https://instagram.com/joselino_santos" class="btn btn-outline-light rounded-circle"><i class="fab fa-instagram fa-lg"></i></a>
-                  <a href="https://br.linkedin.com/in/joselino-santos" class="btn btn-outline-light rounded-circle"><i class="fab fa-linkedin fa-lg"></i></a>
-                  <a href="https://github.com/joselinosantosti" class="btn btn-outline-light rounded-circle"><i class="fab fa-github"></i></a>
+
+               <div class="card">
+                  <img src="img/icones/wp.png" alt="Logo Wordpress">
+                  <div class="card-body">
+                     <h5 class="card-title">Wordpress</h5>
+                  </div>
+               </div>
+
+               <div class="card">
+                  <img src="img/icones/angular.png" alt="Logo Angular">
+                  <div class="card-body">
+                     <h5 class="card-title">Angular</h5>
+                  </div>
                </div>
             </div>
          </div>
-      </footer>
-      
-      <!-- JavaScript (Opcional) -->
-      <script>
-         function artigo(id) {
-            if (id == 1) {
-               location.href = 'https://joselinosantos.medium.com/calculando-a-dist%C3%A2ncia-euclidiana-para-sistema-de-recomenda%C3%A7%C3%A3o-baseado-em-filtragem-colaborativa-9464d3b40ac9'
-            } else if (id == 2) {
-               location.href = ''
-            }
-         }
-      </script>
+      </section>
 
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-   </body>
+      <!-- <section class="posts bg-light text-dark">
+         <div class="container">
+            <header class="mb-5">
+               <h2>Posts Recentes</h2>
+               <!-- <h4>Confira os meus posts sobre Desenvolvimento Web</h4>
+            </header>
+
+            <div class="card-deck">
+               <div class="card shadow">
+                  <img src="img/code python.jpeg" class="card-img-top">
+                  <div class="card-body">
+                     <h4 class="card-title">Criando um virtualenv para projetos Python</h4>
+                     <p class="card-text lead">Virtualenv é um ambiente que permite a instalação de pacotes sem
+                        interferir nas
+                        aplicações instaladas no sistema operacional.</p>
+
+                     <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+               </div>
+
+               <div class="card shadow">
+                  <img src="img/node.png" class="card-img-top">
+                  <div class="card-body">
+                     <h4 class="card-title">Criando seu primeiro projeto em NodeJS</h4>
+                     <p class="card-text lead">Node JS é o interpretador para Javascript que funciona fora do navegador.
+                        Baseado
+                        no motor V8 do Google Chrome revolucionou a linguagem que antes era apenas para front end.</p>
+
+                     <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+               </div>
+
+               <div class="card shadow">
+                  <img class="card-img-top" src="img/login.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h4 class="card-title">Criando uma tela de Login</h4>
+                     <p class="card-text lead">This card has supporting text below as a natural lead-in to additional
+                        content. This card has supporting text below as a natural lead-in to additional content This
+                        card has supporting text below as a natural lead-in to additional content
+                     </p>
+
+                     <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+               </div>
+
+            </div>
+            <a href="" class="btn btn-outline-dark btn-custom mt-5">VER MAIS</a>
+         </div>
+      </section> -->
+   </main>
+
+   <footer class="text-white text-center" id="contacts">
+      <div class="container">
+         <div class="mb-5">
+            <header>
+               <h2>Entre em contato</h2>
+               <h4>Tire suas dúvidas ou faça um orçamento</h4>
+            </header>
+
+            <form class="contact mt-4 p-2">
+               <div class="input-group mb-2">
+                  <input type="email" class="form-control" placeholder="Email">
+               </div>
+
+               <div class="input-group mb-2">
+                  <textarea class="form-control" name="" rows="2" placeholder="Mensagem"></textarea>
+               </div>
+
+               <div class="input-group">
+                  <button type="submit" class="btn btn-outline-light">Enviar</button>
+               </div>
+            </form>
+         </div>
+
+         <div class="row">
+            <div class="social-media col-sm-3">
+               <a href="https://br.linkedin.com/in/joselino-santos" class="btn btn-outline-light rounded-circle"
+                  target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+               <a href="https://github.com/joselinosantosti" class="btn btn-outline-light rounded-circle"
+                  target="_blank"><i class="fab fa-github"></i></a>
+               <a href="https://codepen.com/joselinosantos" class="btn btn-outline-light rounded-circle"
+                  target="_blank"><i class="fab fa-codepen"></i></a>
+            </div>
+         </div>
+      </div>
+      <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+         <i class="fas fa-arrow-up"></i>
+      </button>
+   </footer>
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
 </html>

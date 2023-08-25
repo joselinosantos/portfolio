@@ -1,0 +1,300 @@
+/* @author Joselino Santos*/
+:root {
+  --primary: #7635d8;
+}
+
+.bg-purple {
+  background: var(--primary)
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar .navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar .navbar-toggler:hover {
+  border-color: var(--primary);
+  transition: 0.5s;
+}
+
+.navbar-brand {
+  font-family: "Audiowide", cursive;
+  font-size: 1.6em;
+}
+
+.btn {
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  text-transform: uppercase;
+  transition: 0.4s;
+  padding: 8px 16px;
+}
+
+.btn:hover {
+  background: var(--primary);
+  color: #fff;
+  transition: 0.5s;
+}
+
+.btn-more {
+  background: var(--primary);
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-more:hover {
+  background: transparent;
+  color: #7635d8;
+  border: 1px solid #7635d8;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+section {
+  padding: 32px 0;
+  text-align: center;
+}
+
+html,
+.home {
+  background-image: url("../img/bg/bg2.png");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.home span {
+  color: #7635d8;
+  text-shadow: 2px 2px 0 #fff;
+}
+
+.home figure img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: 8px solid #7635d8;
+  box-shadow: 0px 16px 32px 4px #000;
+}
+
+.solutions {
+  background: linear-gradient(#1b113c 20%, transparent 20%) no-repeat;
+}
+
+.solutions .card {
+  min-width: 200px;
+  border: none;
+  padding: 16px;
+  border-radius: 16px;
+  border-bottom: 4px solid #7635d8;
+  cursor: default;
+  text-align: center;
+  color: #838383;
+}
+
+.solutions .card h5 {
+  color: #7635d8;
+  margin-top: 8px;
+}
+
+.solutions .card i {
+  font-size: 64px;
+  color: #7635d8;
+}
+
+.projects .card {
+  min-width: 300px;
+  margin-bottom: 16px;
+  transition: 0.5s;
+  border: none;
+}
+
+.projects .card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.projects .card:hover a {
+  transition: 0.5s;
+  transform: scale(1.03);
+}
+
+.skills {
+  background: #7635d8;
+  color: #fff;
+}
+
+.skills .card-deck {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.skills .card {
+  background: none;
+  border: none;
+}
+
+.skills .card img {
+  margin: auto;
+  width: 100px;
+}
+
+footer {
+  background-image: url("../img/bg/bg3.png");
+  background-size: cover;
+  padding: 32px 0px;
+}
+
+.contact {
+  width: 50%;
+  margin: auto;
+  border-radius: 32px;
+}
+
+.contact input,
+.contact textarea {
+  border: 1px solid #fff;
+  background: transparent;
+  font-size: 20px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.contact textarea {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.contact .btn {
+  width: 100%;
+}
+
+.contact .form-control:focus {
+  border: 1px solid transparent;
+  border-radius: 16px;
+  border: 1px solid #7635d8;
+  color: #fff;
+  background: transparent;
+}
+
+.contact .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff;
+}
+
+.contact .form-control::-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fff;
+}
+
+.contact .form-control::-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+
+div:has(social-media) {
+  background: red;
+}
+
+.social-media {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.social-media a,
+.contact button {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-floating {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 12px;
+  display: none;
+  border: 1px solid #fff;
+  transition: 0.5s;
+  background-color: var(--primary);
+  color: #fff;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  nav.navbar,
+  body {
+    text-align: center;
+  }
+  .home .left {
+    text-align: justify;
+  }
+  .home .left header {
+    text-align: center;
+  }
+  .skills .card img {
+    width: 90%;
+  }
+  .skills .card .card-body {
+    display: none;
+  }
+  .social-media {
+    margin: auto;
+  }
+  .projects {
+    margin: 0;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  h1 {
+    font-size: 5em;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 6em;
+  }
+}
